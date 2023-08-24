@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Website</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Movies</a>
+        <a href="#">TV Shows</a>
+        <a href="#">About</a>
+        <a href="#">Mail Us</a>
+        <div class="nav"> <a href="#">Registraion</a>
+            <a href="#">Login</a>
+            <!-- Add more links as needed -->
+        </div>
+    </div>
+
+
+    <div class="search-filter">
+        <input type="text" id="search" placeholder="Search movies...">
+        <input type="submit">
+
+        <select id="filter">
+            <option value="all">All Genres</option>
+            <option value="action">Action</option>
+            <option value="comedy">Comedy</option>
+            <option value="drama">Drama</option>
+            <option value="friction">friction</option>
+            <!-- Add more genres here -->
+        </select>
+    </div>
+    <h1>Top Movies</h1>
+    <div class="movie-list" id="movieList">
+        <!-- Movies will be dynamically added here using JavaScript -->
+    </div>
+    <h1>Trending</h1>
+    <div class="movie-list" id="movie-list">
+        <!-- Movies will be dynamically added here using JavaScript -->
+    </div>
+    <script src="script.js">
+
+
+    </script>
+</body>
+
+</html>
